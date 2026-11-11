@@ -26,7 +26,8 @@ st.markdown(
     <style>
       /* limpa o "chrome" do Streamlit */
       header[data-testid="stHeader"], [data-testid="stToolbar"],
-      [data-testid="stDecoration"], #MainMenu, footer {display: none !important;}
+      [data-testid="stDecoration"], [data-testid="stStatusWidget"],
+      [data-testid="stAppDeployButton"], #MainMenu, footer {display: none !important;}
 
       .block-container {padding: 1.2rem 1rem 1.5rem !important; max-width: 760px;}
       [data-testid="stVerticalBlock"] {gap: .4rem;}
